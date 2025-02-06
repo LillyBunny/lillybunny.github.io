@@ -7,5 +7,5 @@
         }
         link.href = iconURL;
     }
-    document.title = "That Nerd";
+    document.title = "D E O";
     changeFavicon("https://i.imgur.com/LOFnBmH.png");
