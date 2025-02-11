@@ -1,0 +1,22 @@
+#profilephoto {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 45vh;
+  max-width: 25vw;;
+  padding: 10px;
+  overflow: hidden;
+  z-index: 101;
+}
+
+#profilephoto img {
+  border-radius: 20px;
+  border: 5px solid pink;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  object-fit: cover;
+}
+#chatango-log {
+    z-index: 101;
+}
