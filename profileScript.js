@@ -1,16 +1,3 @@
-    function changeFavicon(iconURL) {
-        let link = document.querySelector("link[rel*='icon']");
-        if (!link) {
-            link = document.createElement('link');
-            link.rel = 'icon';
-            document.head.appendChild(link);
-        }
-        link.href = iconURL;
-    }
-    document.title = "D E O";
-    changeFavicon("https://i.imgur.com/LOFnBmH.png");
-
-
 document.addEventListener("DOMContentLoaded", function () {
     let iframe = document.createElement("iframe");
     iframe.src = "//jsfiddle.net/Deo2Some/6mvbd51a/embedded/result/";
@@ -22,3 +9,15 @@ document.addEventListener("DOMContentLoaded", function () {
     
     document.body.appendChild(iframe);
 });
+
+function changeFavicon(iconURL) {
+    let link = document.querySelector("link[rel*='icon']");
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.head.appendChild(link);
+    }
+    link.href = iconURL;
+}
+document.title = "D E O";
+changeFavicon("https://i.imgur.com/LOFnBmH.png");
