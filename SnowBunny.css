@@ -17,6 +17,6 @@
   cursor: pointer;
   object-fit: cover;
 }
-#chatango-log {
+#chatango-widget {
     z-index: 101;
 }
